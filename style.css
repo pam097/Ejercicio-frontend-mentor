@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed');
 
 * {
-  font-size: 13px !important;
+  font-size: 13px;
   font-family: 'Barlow Semi Condensed', sans-serif;
   box-sizing: border-box;
   margin: 0%;
@@ -86,27 +86,28 @@ font-size: 16px;
  position: relative;
 }
 
-.image {
+.header .image {
 border-radius: 50%;
 margin-right: 10px;
-
-
+height: 30px;
+width: 30px;
 }
 
-
-
-
+.image-purple {
+  border: 1.5px solid #AF7AC5 ;
+}
 
 .quotation {
   position: absolute;
    right: 15%;
    top:0;
-   z-index: 1;
+   z-index: -1;
+   
     
   }
 
 
-@media (min-width:375px) {
+@media (min-width:576px) {
 
   .container,
   .top-container,
